@@ -65,11 +65,10 @@ This design intentionally mirrors real integration tools (Zapier, n8n, Make).
 
 ```
 DEEPLOGIC ASSIGNMENT/
-├── client/
-│   ├── lead_client.py          # Sheets API wrapper
-│   ├── task_client.py          # Trello API wrapper
-│   ├── sync_logic.py           # Core synchronization logic
-│   ├── mappings.py             # Status conversion tables
+├── lead_client.py          # Sheets API wrapper
+├── task_client.py          # Trello API wrapper
+├── sync_logic.py           # Core synchronization logic
+├── mappings.py             # Status conversion tables
 │
 ├── poller.py                   # Forward sync (Sheet → Trello)
 ├── server.py                   # Reverse sync (Trello → Sheet, webhook)
